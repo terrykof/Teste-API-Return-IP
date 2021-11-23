@@ -5,7 +5,7 @@ from main import insertSite
 app = Flask("whois")
 
 
-@app.route("/cadastra/Site", methods=["POST"])
+@app.route("/whois", methods=["POST"])
 def cadastrasite():
 
     body = request.get_json()
