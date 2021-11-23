@@ -10,7 +10,7 @@ def testewhois():
     return {"teste": "whois"}
 
 
-@app.route("/cadastra/usuario", methods=["POST"])
+@app.route("/cadastra/Site", methods=["POST"])
 def cadastrasite():
 
     body = request.get_json()
